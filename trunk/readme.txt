@@ -8,11 +8,11 @@ Requires at least: 2.7
 Tested up to: 4.0.1
 Stable tag: 1.0
 
-Adds a modern weather app to your site. The weather app is available as both a widget and a shortcode.
+Adds a modern weather app to your site. The weather app is avaliable as both a widget and a shortcode.
 
 == Description ==
 
-Adds the Weather to your site. The weather app is available as both a widget and a shortcode. If you have any problems or questions please email me at [alex@dobsondev.com](mailto:alex@dobsondev.com).
+Adds the Weather to your site. The weather app is avaliable as both a widget and a shortcode. If you have any problems or questions please email me at [alex@dobsondev.com](mailto:alex@dobsondev.com).
 
 **Widget**
 
@@ -23,6 +23,10 @@ To get the Widget working, simply go to Appearance -> Widgets and drag the "Dobs
 [weather location="City/Town, CC" align="align"]
 
 This Shortcode will embed the weather app into your page. Be sure to replace the above code with information pertaining to you. The location should be in the format of Town or City, comma, then the country code. For example, New York would be location="New York, US". The alignment is where you want the shortcode to be aligned to. This works the same way as the WordPress image alignments, so your choices are "right", "left", or "center".
+
+**API Key**
+
+Please note that this plugin DOES use an API to get the weather and you do have to supply your own API key (the key is free with paid versions for high traffic). The API used for this plugin is [Open Weather Map](http://openweathermap.org/). You can register for an API key here: [http://openweathermap.org/register](http://openweathermap.org/register).
 
 == Installation ==
 
@@ -37,7 +41,7 @@ This Shortcode will embed the weather app into your page. Be sure to replace the
 
 This plugin does use an API to get the weather and you do have to supply your own API key (the key is free with paid versions for high traffic). The API used for this plugin is [Open Weather Map](http://openweathermap.org/). You can register for an API key here: [http://openweathermap.org/register](http://openweathermap.org/register).
 
-For more information about the shortcodes available through the plugin please visit the plugin site. The site contains a description and usage information for the plugin.
+For more information about the shortcodes avaliable through the plugin please visit the plugin site. The site contains a description and usage information for the plugin.
 
 * [Plugin Site](http://dobsondev.com/portfolio/dobsondev-weather/)
 

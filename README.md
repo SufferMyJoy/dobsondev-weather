@@ -27,6 +27,10 @@ To get the Widget working, simply go to Appearance -> Widgets and drag the "Dobs
 
 This Shortcode will embed the weather app into your page. Be sure to replace the above code with information pertaining to you. The location should be in the format of Town or City, comma, then the country code. For example, New York would be location="New York, US". The alignment is where you want the shortcode to be aligned to. This works the same way as the WordPress image alignments, so your choices are "right", "left", or "center".
 
+## API Key
+
+Please note that this plugin DOES use an API to get the weather and you do have to supply your own API key (the key is free with paid versions for high traffic). The API used for this plugin is [Open Weather Map](http://openweathermap.org/). You can register for an API key here: [http://openweathermap.org/register](http://openweathermap.org/register).
+
 # Installation
 
 1. Upload the entire dobsondev-weather-app folder to the /wp-content/plugins/ directory.

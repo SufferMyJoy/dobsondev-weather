@@ -1,0 +1,147 @@
+/*
+ * DobsonDev Weather App
+ *
+ * Author: Alex Dobson
+ * Author URI: http://dobsondev.com/
+ * License: GPLv2
+ *
+ * Copyright 2014  Alex Dobson  (email : alex@vitaleffect.com)
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License, version 2, as
+ * published by the Free Software Foundation.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+ *
+ */
+
+.dobsondev-weather-app {
+  max-height: 150px;
+  max-width: 275px;
+  width: 100%;
+  background-color: #fff;
+}
+
+.dobsondev-weather-app .current-weather {
+  margin: 0;
+  width: 60%;
+  height: 150px;
+  background-color: #003366;
+  color: #FFF;
+  text-align: center;
+  float: left;
+}
+
+.dobsondev-weather-app .current-weather p.temp {
+  font-size: 5em;
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  font-weight: 100;
+  text-align: center;
+  color: #FFDE00;
+}
+
+.dobsondev-weather-app .current-weather p.city {
+  font-size: .9em;
+  margin: 0;
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: .1em;
+  line-height: 0.5;
+  position: relative;
+  top: -20px;
+}
+
+.dobsondev-weather-app .current-weather-icon {
+  width: 100%;
+  min-height: 65px;
+  max-height: 65px;
+  text-align: center;
+  padding-top: 15px;
+  background-color: #C0C0C0;
+  border-top: 1px solid #C0C0C0;
+  border-right: 1px solid #C0C0C0;
+  font-size: 3em;
+}
+
+.dobsondev-weather-app .current-weather-icon img {
+  background-color: #AAA;
+  border-radius: 26px 26px 26px 26px;
+  border: 1px solid #E6E6E6;
+}
+
+.dobsondev-weather-app .three-day-forecast {
+  width: 100%;
+  min-height: 70px;
+  max-height: 70px;
+  background-color: #6699CC;
+  border-right: 1px solid #6699CC;
+  height: 49px;
+}
+
+.dobsondev-weather-app .three-day-forecast ul {
+  list-style-type: none;
+  text-align: center;
+  width: 100%;
+  padding-top: 7px;
+}
+
+.dobsondev-weather-app .three-day-forecast ul li {
+  float:left;
+  text-align: center;
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  color: #FFF;
+  margin: 5px;
+}
+
+.dobsondev-weather-app .three-day-forecast ul li:first-child {
+  margin-left: 18px;
+}
+
+.dobsondev-weather-app .three-day-forecast .day {
+  color: #000044;
+  font-size: .6em;
+  font-weight: 700;
+}
+
+.dobsondev-weather-app .three-day-forecast .temp {
+  font-weight: 200;
+  font-size: .8em;
+  letter-spacing: 0.08em;
+}
+
+.dobsondev-weather-shortcode {
+  max-width: 275px;
+  min-width: 275px;
+}
+
+.dobsondev-weather-shortcode.dobsondev-weather-align-left {
+  float: left;
+  padding: 5px 25px 5px 5px;
+}
+
+.dobsondev-weather-shortcode.dobsondev-weather-align-right {
+  float: right;
+  padding: 5px 5px 5px 25px;
+}
+
+.dobsondev-weather-shortcode.dobsondev-weather-align-center {
+  margin: 0 auto;
+  padding: 25px 5px 5px 5px;
+}
+
+/* Clear Fix */
+.dobsondev-weather-shortcode:after {
+  content: "";
+  display: table;
+  clear: both;
+}

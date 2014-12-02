@@ -41,25 +41,26 @@
 
 .dobsondev-weather-app .current-weather p.temp {
   color: #FFDE00;
-  font-size: 5em;
   margin: 0;
   padding: 0;
   font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 4.3em;
   font-weight: 100;
   text-align: center;
+  letter-spacing: .01em;
 }
 
 .dobsondev-weather-app .current-weather p.city {
   color: #FFF;
-  font-size: .9em;
   margin: 0;
   font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: .9em;
   font-weight: 700;
   text-align: center;
   letter-spacing: .1em;
   line-height: 0.5;
   position: relative;
-  top: -20px;
+  top: -10px;
 }
 
 .dobsondev-weather-app .current-weather-icon {
@@ -99,16 +100,18 @@
 }
 
 .dobsondev-weather-app .three-day-forecast ul li {
-  float:left;
+  float: left;
   text-align: center;
   font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
   color: #FFF;
   margin: 5px;
   padding: none;
 }
 
 .dobsondev-weather-app .three-day-forecast ul li:first-child {
-  margin-left: 18px;
+  margin-left: 14px;
 }
 
 .dobsondev-weather-app .three-day-forecast .day {

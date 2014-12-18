@@ -5,7 +5,7 @@ License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl.html
 Tags: dobsondev, weather, dobsondev weather, weather app, open weather map
 Requires at least: 2.7
-Tested up to: 4.0.1
+Tested up to: 4.1
 Stable tag: 1.0
 
 Adds a modern weather app to your site. The weather app is avaliable as both a widget and a shortcode.
